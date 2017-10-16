@@ -6,7 +6,7 @@ import machine
 
 sta = network.WLAN(network.STA_IF)
 sta.active(True)
-sta.connect("GLOBAL UTAMA", "2705suju")
+sta.connect("SSID", "PASSWORD")
 sta.ifconfig()
 time.sleep(5)
 
