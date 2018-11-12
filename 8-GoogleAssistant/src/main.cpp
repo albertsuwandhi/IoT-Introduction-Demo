@@ -11,9 +11,9 @@ Date       : 14 September 2017
 #include <BlynkSimpleEsp8266.h>
 
 ESPectro board(ESPectro_V3);
-char auth[]= "1234567890"; //your key
-const char* ssid= "SSID"; //SSID
-const char* password= "PASS"; //Password
+char auth[]= "d76090efad6d4f4cacf43e8dacbe1c35"; //your key
+const char* ssid= "SuperNova"; //SSID
+const char* password= "1234567890"; //Password
 
 void setup(){
     board.turnOffAllNeopixel();
